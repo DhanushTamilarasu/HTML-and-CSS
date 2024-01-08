@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images-2.jpeg">
+    <title>work_space</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="load">
+    <div class="detailss">
+        <details> <h2>what is HTML?</h2>
+            <pre>
+                HTML stands for Hyper Text Markup Language
+
+                HTML is the standard markup language for Web pages
+                
+                HTML elements are the building blocks of HTML pages
+                
+                HTML elements are represented by <> tags</pre>
+        </details>
+        <details>
+            <h2>what is Css?</h2>
+            <pre>
+            CSS stands for Cascading Style Sheets
+
+            CSS describes how HTML elements are to be displayed on screen, 
+
+            paper, or in other media, CSS saves a lot of work.
+
+            It can control the layout of multiple web pages all at once
+
+            External stylesheets are stored in CSS files </pre>
+
+        </details>
+      </div>
+      <div class="headd">
+    <h1 style="color: rgb(8, 44, 252);"><bold>Heading</bold></h1>
+    <h2>This is heading 1</h2>
+    <h3>This is heading 2</h3>
+    <h4>This is heading 3</h4>
+    <h5>This is heading 4</h5>
+    <h6>This is heading 5</h6>
+    </div>
+    <div class="para">
+    <h1 style="color: rgb(73, 32, 221);">Paragraph</h1>
+    <p>This is a paragraph.</p>
+    </div>
+    <div class="txt">
+    <h1 style="color: rgb(57, 13, 146);">Text Formate</h1>
+    <i><b>This text is bold with Italic</b></i><br><br>
+    <b>This text is <del>strong</del><ins> <mark>Bold</mark></ins><br>
+    <p>This is <sup>superscripted</sup> text.</p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    </div>
+    <div class="links">
+    <h1 style="color: rgb(7, 35, 246);">Link Tag</h1>
+    <div class="atag">
+    <a href="https://www.google.com" target="_blank">This is a Google link with using Blank Target</a><br><br>
+    <a href="https://www.BMW.com" target="_parent">This is a BMW link  with using Blank or Self Target</a></div>
+    </div>
+    <h1 style="color: rgb(73, 32, 221); text-align: center;"> Form using Button</h1>
+    <form class="forms">
+        <label for="UserName">UserName</label> <br>
+        <input type="text" id="name" placeholder="UserName"></input><br><br>
+        <label for="Mail-id">Mail-id</label> <br>
+        <input type="text" id="mail" placeholder="Mail-id"></input><br><br>
+        <label for="Password">Password </label><br>
+        <input type="password" id="password" placeholder="Password"></input><br><br>
+        <label for="Date">Date</label><br>
+        <input type="date"></input><br><br>
+        <input type="checkbox">Confrim</input> <br><br> 
+        <button type="submit" onclick="">click to Proceed</button><br>
+    </form>
+    <h1 style="color: rgb(47, 95, 229); text-align: center;">Image Tag</h1>
+    <div class="imgs">
+    <img src="recover_form_page.jpg" alt="LOGO" height="260px" width="230px">
+    <h2>Image Map Generated <h2>
+    <h3>click the tree image you will redirect to another page </h3>
+    <img src="BGimages.jpeg" usemap="#image-map">
+    <map name="image-map">
+        <area target="_blank" alt="Tree" title="Tree" href="https://www.worldwildlife.org/places/amazon" 
+        coords="131,99,125,59,148,36,168,21,184,13,228,10,243,11,260,26,274,35,282,46,284,59,280,75,273,92,260,102,206,104,193,107,194,113,190,120,176,123" shape="poly">
+    </map>
+</div>
+<div class="tabs">
+    <h1 style="color: rgb(140, 36, 219);">Table Formate</h1>
+    <table class="tab">
+        <caption>General Table for User</caption>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Company</th>
+          <th>Adress</th> 
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Andrew</td>
+          <td>Mark</td> 
+          <td>abz.co</td>
+          <td>Chennai</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td> 
+          <td>xyz&co</td>
+          <td>Coimbatore</td>
+          <td>34</td>
+        </tr>
+      </table>
+      <h1 style="color: rgb(140, 36, 219);">Table Formate Using Another type of Table using row span</h1>
+      <div class="rows">
+        <h2>Cell that spans two rows</h2>
+        <p>To make a cell span more than one row, use the rowspan attribute.</p>
+<div class="spann">
+            <table>
+            <tr>
+                <th>Name</th>
+                <td>Jill</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone</th>
+                <td>555-1234</td>
+            </tr>
+            <tr>
+                <td>555-8745</td>
+            </tr>
+            </table>
+      </div>
+</div>
+      <div class="ol">
+      <h3 style="color: rgba(15, 15, 15, 0.767);">Example for Ordered List</h3>
+      <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <h3 >Fress Up Drinks</h3>
+            <ol type="i">
+                <li>Juice</li>
+                <li>Salad</li>
+                <li>Soft Driks</li>
+            </ol>
+        <h3 style="color: rgba(12, 12, 12, 0.764);">Example for UN_Ordered List</h3>  
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      </div>
+      <div class="dllist">
+        <h2>A Description List</h2>
+        <div class="dtlist">
+        <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+        </dl>
+        </div>
+        </div>
+        <details class="csss">
+            <h2>what is Css?</h2>
+            <pre>
+                Types of CSS: There are three types of CSS which are given below.
+
+                Inline: Inline CSS contains the CSS property in the body section attached to the element.
+
+                Internal or Embedded: The CSS ruleset should be within the HTML file in the head section 
+
+                i.e. the CSS is embedded within the HTML file.
+
+                External: External CSS contains a separate CSS file that contains only style properties
+
+                with the help of tag attributes.</pre>
+
+        </details>
+        <br>
+      <div class="borders">
+        <p>welcome to learn HTML,CSS</p>
+      </div><br>
+      <div class="colorr">
+        <p1 >welcome how are you</p1>
+      </div><br>
+      <div class="colorr1">
+        <p1 >welcome how are you</p1>
+      </div><br>
+      <div class="colorr2">
+        <p1 >welcome how are you</p1>
+      </div><br>
+      <div class="colorr3">
+        <p1 >welcome how are you</p1>
+      </div>
+</body>
+</html>
